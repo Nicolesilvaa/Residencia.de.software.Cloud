@@ -12,4 +12,4 @@ Repositório criado para armazenar os projetos desenvolvidos durante a trilha de
 
 **Autora:** Nicole Silva
 
-*Data:* 01/07/2024
+**Data:** 01/07/2024
