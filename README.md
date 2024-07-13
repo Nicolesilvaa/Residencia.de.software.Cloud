@@ -4,7 +4,7 @@ Repositório criado para armazenar os projetos desenvolvidos durante a trilha de
 
 ## Módulos desenvolvidos 📚: 
 
-- [Raciocínio Lógico]();
+- [Raciocínio Lógico](https://github.com/Nicolesilvaa/Residencia-de-software-Cloud/tree/main/RaciocionioLogico);
 - [Trilha Cloud]();
 - [Hackathon]();
 
