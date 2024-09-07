@@ -1,9 +1,11 @@
 #Verifica se um valor é par ou ímpar
 
-x = int(input("Olá, usuário! Digite um valor: "))
+
 
 flag = 'S'
 while(flag == 'S'):
+
+    x = int(input("Olá, usuário! Digite um valor: "))
 
     if(x % 2 == 0):
         print("Número é par")
