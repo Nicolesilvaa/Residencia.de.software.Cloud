@@ -1,7 +1,12 @@
-FROM node:18-alpine
-WORKDIR /app                                        
-COPY  . .                                           
-RUN yarn install --production                     
-CMD [ "node", "arc/index.js"]                    
-EXPOSE 3000                                        
+FROM python:3
+RUN useradd -r  Nilewa
+
+WORKDIR /usr/app
+COPY codigoBasico.py /usr/app
+
+RUN apt update && apt upgrade
+
+USER Nilewa
+CMD ["python3","codigoBasico.py"]   
+
 
