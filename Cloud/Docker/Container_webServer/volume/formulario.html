@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="script.js"></script>
+		<title>Formulário</title>
+       
+	</head>
+	
+	<body >
+    
+
+		<nav class="nav">
+    <a href="https://prova-dev-web.nicolesilva10.repl.co/"> <img src="/image/pgcomp.png" alt="logoPGCOMP" > </a>
+    <div class="navbar">
+    <h6> INICIO </h6>
+    <h6> SOBRE O PROGRAMA </h6>
+    <h6> CURSOS </h6>
+    <h6> EDITAIS </h6>
+    <h6> PESQUISA </h6>
+    <h6> PRODUÇÃO ACADÊMICA </h6>
+    <h6> APOIO </h6>
+    <h6> CONTATO </h6>
+    </div>
+  </nav>
+		<div id="formulario">
+		
+		<h2 id="txt"> Entre em contato com seu professor </h2>
+	
+			<h3>Informe seu email</h3>
+			<p id="aEmail"></p>
+			<input id="Semail" type="text" name="email" placeholder="email"  size="15">
+		
+			<h3> Assunto </h3>
+			<p id="aAssunto"></p>
+			<textarea id="assunto" type="text"  name="assunto" size="15"></textarea>
+		
+			<h3> Nome do docente </h3>
+			<select id="sDocente">
+				<option value="Selecione"> Selecione </option>
+				<option value="Prof. Rodrigo Rocha"> Prof. Rodrigo Rocha </option>
+				<option value="Profa. Fabíola Greve"> Profa. Fabíola Greve </option>
+				<option value="Prof. Bruno P. Santos"> Prof. Bruno P. Santos </option>
+				<option value="Profa. Tatiane Nogueira"> Profa. Tatiane Nogueira </option>
+				<option value="Profa. Frederico Araujo Durão"> Prof. Frederico Araujo Durão </option>
+				
+			</select>
+		
+
+			<button id="Bform" type="submit"  onclick="campoVazio()" > Enviar menssagem </button>
+			
+	</div>
+
+
+    <footer class="rodape" >
+          <div>
+            <h3>
+                IC - INSTITUTO DE COMPUTAÇÃO/UFBA
+            </h3>
+            <h4>
+                Avenida Milton Santos, s/n - Campus de Ondina, PAF 2 - Salvador - Bahia, CEP 40.170-110
+            </h4>
+            <h4>
+                E-mail: ceapg-ic@ufba.br
+            </h4><br>
+            <h4>Desenvolvido pelo NEHP-STI / HUB PRPPG</h4>
+          </div>
+             <div class="botao" id="icones">  
+            <a href="https://twitter.com/pgcomp_ufba"><img src="image/twitter.png" alt="Logo Twitter"></a>
+            <a href="https://www.youtube.com/channel/UCU6wWvDsc1FaXJRGoaNHwow"><img src="image/youtube.png" alt="Logo Youtube"></a>
+            <a href="https://www.instagram.com/computacaoufba/"><img src="image/instagram.png" alt="Logo Instagram"></a>
+            <a href="https://www.facebook.com/pgcomp2014"><img src="image/facebook.png" alt="Logo Facebook"></a>         
+            </div> 
+         
+        </footer>
+	</body>
+</html>
+

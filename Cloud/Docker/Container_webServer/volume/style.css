@@ -1,0 +1,242 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+   background-color: #0d8acd;
+    border-radius: 4px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+    width: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px auto;
+    padding: 20px;
+
+ 
+
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+  
+}
+
+.paragrafo{
+   margin-top: 50px;
+    width: 1100px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    text-align: justify;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+
+.botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.caixa{
+   
+    width: 200px;
+    height: 100px;
+    background-color: #0d8acd;
+    border-radius: 4px;
+    margin-right: 40px;
+    padding: 30px 10px;
+    text-align: center;
+    margin: 10px 50px;
+    transition: transform 0.6s ease-in-out; 
+
+} 
+section:hover{
+  background-color:#81d16b;
+ transform: scale(1.5); 
+ box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+}
+
+a{
+  text-decoration: none;
+   color: white;
+   font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  
+}
+
+nav{
+  display:flex;
+  justify-content:space-between;
+  background-color:#ecf1f5;
+  
+  
+}
+.navbar{
+
+	font-size: 20px;
+ font-family: 'Raleway', sans-serif;
+ color:#4b4949;
+ gap:30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: 100%;
+
+}
+h6:hover{
+ color:#51b536;
+ cursor:pointer;
+ -webkit-transform: scale(1.1);
+ transform: scale(1.1);
+}
+
+
+.rodape{
+	
+  background-color:#0d8acd ;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: white;
+  height: 150px;
+  padding: 20px 50px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+#icones{
+  display: flex;
+  gap: 20px;
+  
+}
+
+
+
+/*CSS Formulário*/
+
+#formulario{
+
+	background-color:#85b6c7;
+	color: white;
+  display: flex;
+	gap: 15px;
+  flex-direction: column;
+  align-items:center;
+	margin: 10px auto;
+	padding: 5%;
+	text-decoration: solid;
+	font-style: 'Raleway', sans-serif;
+	
+}
+
+#txt{
+	
+	font-size: 30px;
+}
+
+#Semail,#assunto{
+  
+ 
+	height: 30px;
+	width: 25%;
+	border-radius: 4px;
+	border-width: 0.5px;
+	border-color:#0d8acd;
+	background-color:white;
+
+}
+
+#assunto{
+	height: 150px;
+}
+
+#aEmail,#aAssunto{
+
+	color: red;
+}
+
+#sDocente{
+
+	align-items: center;
+	text-align: center;
+  color: black;
+	width: 25%;
+  height: 40px;
+	border-radius: 4px;
+	border-width: 0.5px;
+	border-color:#add8e6;
+	background-color:white ;
+} 
+
+#Bform{
+
+	color: white;
+	margin-top: 10px;
+	font-weight: 500px;
+	background-color:#0d8acd;
+  border-radius: 4px;
+	width: 280px;
+  height: 40px;
+	border: none;
+
+}
+
+#Bform:hover{
+  background-color:#81d16b;
+ transform: scale(1.0); 
+ box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+}
+.btform{
+	color: white;
+	font-size: 18px;
+	background-color:#0d8acd;
+  border-radius: 4px;
+	width: 25%;
+  height: 80px;
+	border: none;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content:center;
+  text-align: center;
+  margin: 60px auto;
+
+}
+
+#Bform:hover{ 
+  box-shadow: 0.5px 5px 5px black;
+  
+}
+
+.conteudo{
+   
+            
+	text-decoration: solid;
+	font-style: 'Raleway', sans-serif;
+	color: black;
+    margin-top: 50px;
+    width: 1100px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    text-align: justify;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+
+
+
