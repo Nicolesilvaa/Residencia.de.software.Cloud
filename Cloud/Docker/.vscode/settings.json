@@ -1,0 +1,7 @@
+{
+    "python.testing.pytestArgs": [
+        "Container_Python3_ex1"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}
