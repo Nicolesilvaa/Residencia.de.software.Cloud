@@ -1,3 +1,6 @@
+
+![restic](https://github.com/user-attachments/assets/78482e53-96e4-4c2a-9fc2-bcbf257a66e8)
+
 # Residência de software: Trilha Cloud 🚀
 
 Repositório criado para armazenar os projetos desenvolvidos durante a trilha de Cloud da residência de software ofertada pela empresa CEPEDI em parceria com o Governo do Estado da Bahia. 
