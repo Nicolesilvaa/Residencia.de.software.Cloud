@@ -9,4 +9,3 @@ RUN apt update && apt upgrade
 USER Nilewa
 CMD ["python3","codigoBasico.py"]   
 
-
